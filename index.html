@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>4wseed - Urban Art Apparel</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { background: #000; color: #fff; font-family: 'Impact', 'Arial Black', sans-serif; text-align: center; }
+header { padding: 40px 20px 20px; }
+.logo { width: 320px; max-width: 90%; }
+h1 { color: #00ff00; font-size: 56px; letter-spacing: 3px; margin: 15px 0 5px; }
+.tagline { color: #ccc; font-size: 14px; lette-spacing: 4px; margin-bottom: 30px; }
+.btn { background: #00ff00; color: #000; padding: 14px 32px; text-decoration: none; border-radius: 3px; font-weight: bold; margin: 10px; display: inline-block; transition: 0.3s; }
+.btn:hover { background: #fff; transform: scale(1.05); }
+.btn-outline { background: transparent; color: #00ff00; border: 2px solid #00ff00; }
+
+section { padding: 60px 20px; }
+h2 {color: #00ff00; font-size: 32px; margin-bottom: 20px; letter-spacing: 2px; }
+
+.products { display: flex; flex-wrap: wrap; justify-content: center; gap: 30px; max-width: 1100px; margin: auto; }
+.product { background: #111; border: 2px solid #00ff00; padding: 20px; width: 300px; border-radius: 5px; }
+.product img { width: 100%; border-radius: 3px; }
+.product h3 { margin: 15px 0 5px; color: #00ff00; }
+.product p { color: #aaa; font-size: 14px; margin-bottom: 15px; }
+
+footer { background: #111; padding: 30px 20px; margin-top: 40px; color: #777; font-family: Arial; font-size: 12px; }
+
+@media(max-width: 768px){ h1{font-size: 40px;} }
+</style>
+</head>
+<body>
+
+<header>
+<img src="/static/images/logo.png" alt="4wseed Logo" class="logo">
+    <h1>4WSEED</h1>
+    <p class="tagline">URBAN ART APPAREL</p>
+    <a href="#shop" class="btn">SHOP NOW</a>
+    <a href="/pricing" class="btn-outline">WEB DESIGN</a>  <!-- NEW BUTTON -->
+    <a href="https://wa.me/254708254084" class="btn">ORDER ON WHATSAPP</a>
+</header>
+
+<section id="shop">
+    <h2>LATEST DROPS</h2>
+    <div class="products">
+        <div class="product">
+            <img src="/static/images/tee1.png" alt="4wseed Tee">
+<h3>4wseed Classic Tee</h3>
+
+    <p>Ksh 750</p>
+            <a href="https://wa.me/254708254084?text=Hi%20I%20want%20Classic%20Tee%20Ksh750" class="btn">DM TO ORDER</a>
+        </div>
+        <div class="product">
+            <img src="/static/images/tee2.jpg" alt="4wseed Hoodie">
+            <h3>Green Motion Hoodie</h3>
+            <p>Ksh 1,050</p>
+            <a href="https://wa.me/254708254084?text=Hi%20I%20want%20Hoodie%20Ksh1050" class="btn">DM TO ORDER</a>
+        </div>
+    </div>
+</section>
+
+<section id="music">
+    <h2>NEW MUSIC</h2>
+    <p>Stream the latest from 4wseed</p>
+    <a href="https://youtube.com" class="btn">LISTEN NOW</a>
+</section>
+
+<footer>
+    <p>© 2026 4wseed. All Rights Reserved. | Nairobi, Dagoretti, KE</p>
+    <p>Follow: @4wseed</p>
+</footer>
+
+</body>
+</html>
