@@ -3,65 +3,73 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Web Design Pricing - 4wseed</title>
-<style>
-* { margin: 0; padding: 0; box-sizing: border-box; }
-body { background: #000; color: #fff; font-family: Arial; text-align: center; padding: 40px 20px; }
-h1 { color: #00ff00; font-size: 42px; margin-bottom:
-10px; }
-.subtitle { color: #ccc; margin-bottom: 40px; }
-.packages { display: flex; flex-wrap: wrap; justify-content: center; gap: 30px; max-width: 1200px; margin: auto; }
-.package { background: #111; border: 2px solid #00ff00; padding: 30px; width: 320px; border-radius: 8px; }
-.package h2 { color: #00ff00; font-size: 28px; }
-.price { font-size: 36px; color: #fff; margin: 15px 0; font-weight: bold; }
-.package p { color: #aaa; margin: 8px 0; }
-.btn { background: #00ff00; color: #000; padding: 14px 28px; text-decoration: none; border-radius: 3px; font-weight: bold; display: inline-block; margin-top: 20px; transition: 0.3s; }
-.btn:hover { background: #fff; transform: scale(1.05); }
-.btn-back { background: transparent; color: #00ff00; border: 2px solid #00ff00; margin-top: 50px; }
-</style>
+<title>Pricing - 4wseed</title>
+<script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body class="bg-black text-white" style="background-image: radial-gradient(circle, #333 1px, transparent 1px); background-size: 20px 20px;">
 
-<h1>WEB DESIGN SERVICES</h1>
+    <div class="container mx-auto px-4 py-16">
+        <h1 class="text-5xl font-bold text-center text-yellow-400 mb-12">WEB DESIGN PRICING</h1>
 
-<p class="subtitle">Websites that sell for brands like 4wseed</p>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            
+        <!-- BASIC -->
+        <div class="bg-gray-800 border-2 border-blue-900 rounded-xl p-8 text-center hover:border-yellow-400 hover:scale-105 transition duration-300">
+          <h2 class="text-3xl font-bold text-yellow-400 mb-4">BASIC</h2>
+          <p class="text-4xl font-bold mb-6">Ksh 20,000</p>
+          <ul class="text-gray-300 space-y-2 mb-8">
+            <li>√ 1 Page Website</li>
+            <li>√ WhatsApp Shop</li>
+            <li>√ 3 Products</li>
+            <li>√ Mobile Responsive</li>
+          </ul>
+        <a href="https://wa.me/254708254084?text=I%20want%20the%20BASIC%20Web%20Package" 
+           class="bg-yellow-400 text-black px-8 py-3 rounded-lg font-bold hover:bg-yellow-500 inline-block">
+          ORDER NOW
+        </a>
+        </div>
 
-<div class="packages">
-    <div class="package">
-        <h2>BASIC</h2>
-        <p class="price">Ksh 20,000</p>
-        <p>1 Page Website</p>
-        <p>Mobile Responsive</p>
-        <p>WhatsApp Ordering</p>
-        <p>3 Products</p>
-        <p>1 Week Delivery</p>
-        <a href="https://wa.me/254708254084?text=I%20want%20the%20BASIC%20Web%20Package" class="btn">ORDER NOW</a>
+        <!--PRO -MOST POPULAR -->
+        <div class="bg-gray-800 border-2 border-yellow-400 rounded-xl p-8 text-center scale-105 relative">
+        <span class="absolute -top-3 left-1/2 -translate-x-1/2 bg-yellow-400 text-black px-4 py-1 rounded-full text-sm font-bold">MOST POPULAR</span>
+        <h2 class="text-3xl font-bold text-yellow-400 mb-4">PRO 🎁️</h2>
+        <p class="text-4xl font-bold mb-6">Ksh 35,000</p>
+        <ul class="text-gray-300 space-y-2 mb-8">
+          <li>√ 5 Page Webseite</li>
+          <li>√ Full Shop</li>
+          <li>√ Unlimited products</li>
+          <li>√ For Artists (Spotify + Youtube)</li>
+          <li>√ Logo Design</li>
+        </ul>
+        <a href="https://wa.me/254708254084?text=I%20want%20the%20Pro%20Web%20Package" 
+           class="bg-yellow-400 text-black px-8 py-3 rounded-lg font-bold hover:bg-yellow-500 inline-block">
+          ORDER NOW
+        </a>
+      </div>
+
+      <!-- PREMIUM -->
+      <div class="bg-gray-800 border-2 border-blue-900 rounded-xl p-8 text-center hover:border-yellow-400 hover:scale-105 transition duration-300">
+        <h2 class="text-3xl font-bold text-yellow-400 mb-4">PREMIUM</h2>
+        <p class="text-4xl font-bold mb-6">Ksh 60,000</p>
+        <ul class="text-gray-300 space-y-2 mb-8">
+          <li>√ Full E-Commerce</li>
+          <li>√ Payment Intergration</li>
+          <li>√ SEO + Analytics</li>
+          <li>√ 4 Month Support</li>
+          <li>√ Custom Branding</li>
+        </ul>
+        <a href="https://wa.me/254708254084?text=I%20want%20the%20Premium%20Web%20Package"
+           class="bg-yellow-400 text-black px-8 py-3 rounded-lg font-bold hover:bg-yellow-500 inline-block">
+          ORDER NOW
+        </a>
+      </div>
+            
     </div>
 
-    <div class="package">
-        <h2>STANDARD</h2>
-        <p class="price">Ksh 30,000</p>
-        <p>3-5 Pages</p>
-        <p>Custom Design</p>
-        <p>SEO + Google Setup</p>
-        <p>2 Revisions</p>
-<p>2 Weeks Delivery</p>
-        <a href="https://wa.me/254708254084?text=I%20want%20the%20STANDARD%20Web%20Package" class="btn">ORDER NOW</a>
+    <div class="text-center mt-12">
+      <a href="index.html" class="text-yellow-400 hover:underline">&larr; Back to Home</a>
     </div>
-
-    <div class="package">
-        <h2>PRO</h2>
-        <p class="price">Ksh 45,000</p>
-        <p>Everything in Standard</p>
-        <p>Advanced Animations</p>
-        <p>Training Session</p>
-        <p>1 Month Support</p>
-        <p>Priority Delivery</p>
-        <a href="https://wa.me/254708254084?text=I%20want%20the%20PRO%20Web%20Package" class="btn">ORDER NOW</a>
-    </div>
-</div>
-
-<a href="/" class="btn btn-back">← BACK TO SHOP</a>
+   </div>
 
 </body>
 </html>
